@@ -1,0 +1,12 @@
+version: "3.5"
+services:
+
+  reverse-proxy:
+    networks:
+      default:
+        aliases:
+          - titi
+networks:
+  default:
+    external:
+      name: parent-network
