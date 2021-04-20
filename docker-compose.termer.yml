@@ -7,6 +7,7 @@ services:
             default:
                 aliases:
                     - termer
+
 networks:
   default:
     external:

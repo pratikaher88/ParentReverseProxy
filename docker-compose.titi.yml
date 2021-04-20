@@ -1,11 +1,11 @@
 version: "3.7"
 services:
-
-  nginx-webserver:
-    networks:
-      default:
-        aliases:
-          - titi
+    
+    nginx-webserver:
+        networks:
+            default:
+                aliases:
+                - titi
 networks:
   default:
     external:
