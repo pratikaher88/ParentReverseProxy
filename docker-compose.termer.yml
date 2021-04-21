@@ -1,12 +1,12 @@
 version: "3.7"
 
-services:
+# services:
 
-    nginx-webserver-termer:
-        networks:
-            default:
-                aliases:
-                    - termer
+    # nginx-webserver-termer:
+    #     networks:
+    #         default:
+    #             aliases:
+    #                 - termer
 
 networks:
   default:
