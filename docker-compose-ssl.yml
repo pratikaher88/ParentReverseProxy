@@ -9,7 +9,7 @@ services:
         environment:
             CERTBOT_EMAIL: owner@company.com
         volumes:
-          - ./data/conf.d:/etc/nginx/user.conf.d:ro
+          - ./data/nginx:/etc/nginx/user.conf.d:ro
           - letsencrypt:/etc/letsencrypt
 volumes:
     letsencrypt:
