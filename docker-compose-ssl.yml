@@ -16,5 +16,5 @@ volumes:
 
 networks:
     default:
-        parent-network
+        name: parent-network
           
