@@ -13,3 +13,8 @@ services:
           - letsencrypt:/etc/letsencrypt
 volumes:
     letsencrypt:
+
+networks:
+    default:
+        name: parent-network
+          
