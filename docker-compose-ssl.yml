@@ -4,10 +4,10 @@ services:
         restart: unless-stopped
         image: staticfloat/nginx-certbot
         ports:
-            - 80:80/tcp
-            - 443:443/tcp
+            - 80:80
+            - 443:443
         environment:
-            CERTBOT_EMAIL: owner@company.com
+            CERTBOT_EMAIL: pratikaher88@gmail.com
         volumes:
           - ./data/nginx:/etc/nginx/user.conf.d:ro
           - letsencrypt:/etc/letsencrypt
