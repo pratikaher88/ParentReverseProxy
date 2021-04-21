@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(feedback.termer.tingtun.no www.feedback.termer.tingtun.no)
+domains=(feedback.titi.tingtun.no www.feedback.titi.tingtun.no)
 # domains=(feedback.titi.tingtun.no)
 rsa_key_size=4096
 data_path="./data/certbot"
